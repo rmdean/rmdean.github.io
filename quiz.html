@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="utf-8">
+		<!-- Ryan Dean, CSCE 102, Section 14, February 27, 2023 -->
+		<title>Project</title>
+	</head>
+	<body>
+	<div id="content">
+		<div id="header">
+			<h1>Ryan Dean</h1>
+		</div>
+		
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html"<a>Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</div>
+		
+		<main>
+		<div class="col-container">
+		<div class="quiz">
+			<h2>About Me Quiz</h2>
+			<p>
+				<label for="txt-q1">Where was I born?</label>
+				<select id="txt-q1">
+					<option>Hollywood, CA</option>
+					<option>Jackson, NJ</option>
+					<option>Hollywood, FL</option>
+					<option>Miami, OH</option>
+				</select>
+			</p>
+			
+			<p>
+				<label for="txt-q2">What do I do over the summers?</label>
+				<select id="txt-q2">
+					<option>Lifeguard in Long Beach Island, NJ</option>
+					<option>I have an internship in Columbia, SC</option>
+					<option>I stay with family in Florida</option>
+					<option>I stay here for summer classes</option>
+				</select>
+			</p>
+			
+			<p>
+				<label for="txt-q3">What do I want to do in the future?</label>
+				<select id="txt-q3">
+					<option>Become a doctor</option>
+					<option>Become a pharmaceutical sales representative</option>
+					<option>Become a day trader</option>
+					<option>Become a biological researcher</option>
+				</select>
+			</p>
+			
+			<p>
+				<label for="txt-q4">Where do I want to move after college?</label>
+				<select id="txt-q4">
+					<option>Princeton, NJ</option>
+					<option>Atlanta, GA</option>
+					<option>Denver, CO</option>
+					<option>Charleston, SC</option>
+				</select>
+			</p>
+			
+			<button id="btn-submit" onclick="submit()">Submit</button>
+			
+			<div class="col-details">
+			<h2>Quiz Results</h2>
+			<section id="result" class="details hidden">
+				<div id="quizResult">
+					<p id="q1"></p>
+					<p id="q2"></p>
+					<p id="q3"></p>
+					<p id="q4"></p>
+					<h3 id = "score"></h3>
+				</div>
+			</section>
+			</div>
+		<script src="script.js"></script>
+		</div>
+		</main>
+		<footer>
+			<p>&copy; <i>Ryan Dean</i></p>
+		</footer>
+	</body>
+		</div>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="utf-8">
+		<!-- Ryan Dean, CSCE 102, Section 14, February 27, 2023 -->
+		<title>Project</title>
+	</head>
+	<body>
+	<div id="content">
+		<div id="header">
+			<h1>Contact Me</h1>
+		</div>
+		
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</div>
+		
+		<main>
+		<div class="col-container">
+		<div class="col-directions">
+			<h2>Directions</h2>
+				<h3><strong>Ryan Dean Pharmaceuticals</strong></h3>
+				<p>1200 Main St.</br>Columbia, SC, 29201</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.6497794366132!2d-81.0354764852986!3d34.00152838061984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb2aeffd52b7%3A0x6faf89c8ab7540b!2s1200%20Main%20St%2C%20Columbia%2C%20SC%2029201!5e0!3m2!1sen!2sus!4v1679428835430!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		
+		<div class="col-contact">
+			<h2>Contact Me</h2>
+				<form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="8d4855a8-edb9-457f-bf41-bcb34b7c4022">
+	<p>Name: </p>
+    <input type="text" name="name" required>
+	<p>Email: </p>
+    <input type="email" name="email" required>
+	<p>Message: </p>
+    <textarea name="message" required></textarea>
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+    <button type="submit">Submit Form</button>
+
+</form>
+		</div>
+		</div>
+		<script src="script.js"></script>
+		</main>
+		<footer>
+			<p>&copy; <i>Ryan Dean</i></p>
+		</footer>
+	</body>
+	</div>
+</html>
